@@ -1,0 +1,15 @@
+<div class="form-container">
+  <h2>Registro</h2>
+  <app-login-form></app-login-form>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="repeatPassword">Repetir Senha</label>
+      <input id="repeatPassword" type="password" [(ngModel)]="repeatPassword" name="repeatPassword" required />
+    </div>
+    <div class="form-group">
+      <label for="edv">EDV</label>
+      <input id="edv" type="text" [(ngModel)]="edv" name="edv" required />
+    </div>
+    <button type="submit">Registrar</button>
+  </form>
+</div>

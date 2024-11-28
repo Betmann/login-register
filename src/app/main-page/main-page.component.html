@@ -1,0 +1,11 @@
+<div class="main-page">
+  <div class="buttons">
+    <button (click)="showLoginForm()">Login</button>
+    <button (click)="showRegisterForm()">Registrar</button>
+  </div>
+
+  <div class="form-container">
+    <app-login-form *ngIf="isLogin"></app-login-form>
+    <app-register-form *ngIf="!isLogin"></app-register-form>
+  </div>
+</div>
