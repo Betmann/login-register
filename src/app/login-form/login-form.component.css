@@ -11,6 +11,10 @@
   margin-bottom: 15px;
 }
 
+.h2{
+  text-align: center;
+  color: aqua;
+}
 label {
   display: block;
   margin-bottom: 5px;
